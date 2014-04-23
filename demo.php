@@ -64,3 +64,4 @@ $company = new Company();
 $company->xmlunserialize($xmlResponse);
 
 print_r($company);
+//
