@@ -36,7 +36,6 @@ class Company extends XmlSerializable
     $this->employees = $employees;
   }
 
-
   protected function getClassMap()
   {
     return array(
