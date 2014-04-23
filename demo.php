@@ -49,6 +49,7 @@ $employees = new Employees();
 $employees['AA']= new Employee('A', 'A');
 $employees[]= new Employee('B', 'B');
 $employees[] = new Employee('C', 'C');
+$employees['DD'] = new Employee('D', 'D');
 
 $company = new Company('ACME',$employees);
 
